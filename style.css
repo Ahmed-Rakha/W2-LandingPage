@@ -1,0 +1,459 @@
+/* General Style */
+
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.float-left {
+  float: left;
+  width: 50%;
+}
+.clear {
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+
+/* Hero Section */
+
+.hero-section > div > img {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.hero-section > div:first-child {
+  margin-right: 5%;
+  width: 45%;
+}
+
+.hero-section > :nth-child(2) {
+  margin-left: 5%;
+  width: 45%;
+}
+.hero-section-title {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Archivo Black", sans-serif;
+  margin-bottom: 20px;
+}
+
+.hero-section-description {
+  font-size: 25px;
+  font-family: "Red Hat Text", sans-serif;
+  margin-bottom: 20px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 25px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Archivo Black", sans-serif;
+  margin-right: 10px;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: rgb(69, 69, 69);
+  padding: 25px 25px;
+  border: 2px solid rgb(212, 209, 209);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* About Section */
+
+.about-section {
+  padding-top: 100px;
+  /* background-color: #cf3d3d; */
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-question {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.about-answer {
+  font-size: 25px;
+  font-family: "Red Hat Text", sans-serif;
+  margin-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* About Cards */
+.about-cards-container {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.about-single-card {
+  width: 26%;
+  height: 200px;
+  text-align: center;
+  padding-block: 50px;
+  padding-inline: 3%;
+  border-radius: 20px;
+}
+
+.about-cards-container :nth-child(2) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.first-card-bg-blue {
+  background-color: #dbeaff;
+}
+.second-card-bg-mint {
+  background-color: #d1fae4;
+}
+.third-card-bg-lavender {
+  background-color: #f3e7ff;
+}
+
+.about-card-outer-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 30%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 80px;
+}
+
+.about-card-inner-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-card-outer-icon-bg-blue {
+  background-color: blue;
+}
+.about-card-outer-icon-bg-mint {
+  background-color: green;
+}
+.about-card-outer-icon-bg-lavender {
+  background-color: #990ffa;
+}
+
+/* more about section */
+
+.more-about-section {
+  padding-top: 100px;
+}
+
+.more-about-image-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.more-about-image-container {
+  width: 48%;
+  margin-right: 2%;
+  text-align: left;
+}
+.more-about-content-container {
+  width: 48%;
+  margin-left: 2%;
+}
+
+.more-about-content-container h2 {
+  margin: 0;
+}
+
+.more-about-single-conent {
+  border-left: 4px solid #000;
+  padding-left: 30px;
+}
+
+.more-about-single-conent p {
+  font-size: 19px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+/* testimonials section */
+.testimonials-section-container {
+  background-color: #f5f5f5;
+  margin-top: 75px;
+  padding-bottom: 70px;
+}
+.testimonials-section {
+  padding-top: 0px;
+}
+
+.testimonials-heading {
+  text-align: center;
+  /* margin-bottom: 50px; */
+}
+
+.testimonials-heading h2 {
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+.testimonials-heading p {
+  font-size: 25px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.testimonials-cards-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonials-card {
+  width: 26%;
+  height: 200px;
+  text-align: center;
+  padding-inline: 35px;
+  padding-block: 30px;
+  padding-inline: 3%;
+  border-radius: 20px;
+}
+.testimonials-cards-container .testimonials-card:nth-child(2) {
+  margin-inline: 2%;
+}
+
+.testimonials-card-user-info-container {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.testimonials-card-user-info-container > div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.testimonials-card-user-info-text h3 {
+  margin-bottom: 0;
+}
+
+.testimonials-card-user-info-text p {
+  margin-top: 4px;
+  color: #4b4a4a;
+}
+
+.testimonials-card-user-info-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonials-stadistic-container {
+  border: 1px solid #dde5ee;
+  border-radius: 20px;
+  background-color: #f1f5f9;
+}
+.testimonials-stadistic-card {
+  width: 25%;
+  text-align: center;
+  margin-block: 50px;
+}
+
+.testimonials-stadistic-card h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.testimonials-stadistic-card p {
+  color: #4b4a4a;
+}
+
+/* subscribe section */
+
+.subscribe-section-container {
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.subscribe-section-heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.subscribe-section-heading h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.subscribe-section-heading p {
+  font-size: 25px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.subscribe-section-form-container {
+  border: 1px solid #e6eff5;
+  border-radius: 20px;
+  background-color: #f9fafb;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-inline: 5%;
+}
+
+.name-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  color: #1e1d1d;
+}
+
+.name-container input {
+  width: 85%;
+  padding: 18px;
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.input-container label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  color: #1e1d1d;
+}
+
+.input-container input,
+.input-container select,
+.input-container textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 18px;
+  border: 1px solid #ccd6dd;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Red Hat Text", sans-serif;
+  box-sizing: border-box;
+}
+
+.input-container input:focus,
+.input-container select:focus,
+.input-container textarea:focus,
+.name-container input:focus {
+  outline: 1px solid #1e1d1d;
+}
+
+.subscribe-section-form-container button {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0b0b0b;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+.terms-and-conditions {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Red Hat Text", sans-serif;
+  color: #4b4a4a;
+}
+
+/* footer section */
+
+footer {
+  background-color: #111828;
+  margin-top: 80px;
+}
+
+.footer-container {
+  width: 70%;
+  margin: auto;
+  padding-top: 80px;
+  color: #fff;
+}
+.first-footer-container {
+  width: 45%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+.second-footer-container {
+  width: 20%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+.third-footer-container {
+  width: 20%;
+  margin-bottom: 50px;
+}
+.footer-text-color-grey {
+  color: #99a1af;
+}
+.footer-container ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+.footer-container a {
+  text-decoration: none;
+  color: #99a1af;
+  font-size: 18px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.first-footer-container p {
+  font-size: 18px;
+  font-family: "Red Hat Text", sans-serif;
+}
+.first-footer-container ul {
+  margin-top: 30px;
+}
+.first-footer-container ul li,
+.footer-copyright ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.second-footer-container ul li {
+  margin-bottom: 15px;
+}
+
+.footer-copyright ul li {
+  margin-right: 20px;
+}
+
+.footer-copyright ul {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: right;
+}
+
+.footer-copyright ul li a {
+  font-size: 14px;
+}
+
+.footer-hr {
+  border: 0.5px solid #54575e;
+}
